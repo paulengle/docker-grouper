@@ -18,7 +18,7 @@ ENV TIERVERSION=$tierversion
 ENV IMAGENAME=$imagename
 ENV MAINTAINER=$maintainer
 
-ENV TOMCAT_VERSION="8.5.12"
+ENV TOMCAT_VERSION="8.5.29"
 ENV WAIT_TIME=60
 
 LABEL Build docker build --rm --tag $maintainer/$imagename .
