@@ -4,7 +4,7 @@ FROM tier/shibboleth_sp
 ARG maintainer=tier
 ARG imagename=grouper
 ARG version=2.3.0
-ARG tierversion=17070
+ARG tierversion=180401
 
 MAINTAINER $maintainer
 LABEL Vendor="Internet2"
